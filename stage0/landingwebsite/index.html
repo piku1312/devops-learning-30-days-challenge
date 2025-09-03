@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plumbus: Everybody’s Got One</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER (sticky) -->
+  <header id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <img
+          id="header-img"
+          alt="Plumbus logo"
+          width="44" height="44"
+          src="https://img.icons8.com/?size=512&id=cQBluBRvi0Nr&format=png" />
+        <span class="brand-text">plumbus</span>
+      </a>
+
+      <nav id="nav-bar" aria-label="Primary">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-works">How it's Made</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="section hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Every household needs a Plumbus.</h1>
+        <p>From daily Schleme routines to light Grumbo polishing, Plumbus streamlines the tasks you didn’t know you had.</p>
+
+        <!-- FORM -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" class="signup">
+          <label for="email" class="sr-only">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email to get pre-order updates"
+            required
+          />
+          <input id="submit" type="submit" value="Notify Me" />
+        </form>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+                <img 
+        src="https://img.icons8.com/?size=512&id=cQBluBRvi0Nr&format=png" 
+        alt="Plumbus illustration"
+        class="hero-img"
+      />
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="container grid-3">
+      <article class="card">
+        <h3>Universal Utility</h3>
+        <p>Polish your Schleem, align your Dinglebop, or just admire the finish. Plumbus does it all with zero fuss.</p>
+      </article>
+      <article class="card">
+        <h3>Ergo-Grommet Grip™</h3>
+        <p>Patented grip geometry ensures stability, comfort, and that satisfying “plum” thunk with every use.</p>
+      </article>
+      <article class="card">
+        <h3>Dimension-Ready</h3>
+        <p>Compatible across most domestic realities<sup>*</sup>. Warranty void in the presence of Fleeb juice.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS VIDEO -->
+  <section id="how-it-works" class="section section-alt">
+    <div class="container narrow">
+      <h2>How it's Made</h2>
+      <p>Watch this concise overview explaining the step-by-step process behind every Plumbus.</p>
+
+      <!-- Embedded product video -->
+      <div class="video-wrap">
+        <iframe 
+          id="video"
+          width="820" 
+          height="460" 
+          src="https://www.youtube.com/embed/eMJk4y9NGvE?si=baxwY2cfWSaG4xqb" 
+          title="How Plumbus is Made" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section">
+    <div class="container pricing-grid">
+      <div class="tier">
+        <h3>Plumbus Mini</h3>
+        <p class="price">€29</p>
+        <ul>
+          <li>Compact schleme polish</li>
+          <li>Entry-level Dinglebop care</li>
+          <li>90-day support</li>
+        </ul>
+        <a href="#form" class="btn">Pre-order</a>
+      </div>
+      <div class="tier featured">
+        <h3>Plumbus Classic</h3>
+        <p class="price">€79</p>
+        <ul>
+          <li>Full Grumbo management</li>
+          <li>Ergo-Grommet Grip™</li>
+          <li>2-year interdimensional support</li>
+        </ul>
+        <a href="#form" class="btn">Pre-order</a>
+      </div>
+      <div class="tier">
+        <h3>Plumbus Pro</h3>
+        <p class="price">€149</p>
+        <ul>
+          <li>Industrial Fleeb throughput</li>
+          <li>Precision Schlom specs</li>
+          <li>Lifetime upgrades*</li>
+        </ul>
+        <a href="#form" class="btn">Pre-order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <small>Plumbus Industries</small>
+      <a class="top" href="#header">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
