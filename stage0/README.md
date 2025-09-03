@@ -1,0 +1,1 @@
+i started learning devops on 3rd september and i will completely learn it in 30 days
